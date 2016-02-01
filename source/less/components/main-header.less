@@ -1,22 +1,35 @@
 .main-header {
-    background-color: white;
-    min-height: 485px;
-    background: url("../img/header-bg.jpg") no-repeat;
+    background: url("../img/header-bg.jpg") no-repeat 100% 27%;
     background-size: 100%;
-    &__logo {
-        width: 180px;
-        color: black;
-        line-height: 30px;
-        font-size: 30px;
-        font-style: italic;
-    }
+    min-height: 465px;
     &__text {
-        margin: 0 auto;
-        width: 52%;
+        font-size: 14px;
+        line-height: 20px;
         color: white;
-        font-size: 36px;
-        line-height: 48px;
         text-align: center;
-        margin-bottom: ;
+        margin: 0 auto;
+        width: 80%;
+    }
+}
+@media(min-width: 800px) {
+    .main-header {
+        background-color: white;
+        min-height: 485px;
+        background: url("../img/header-bg.jpg") no-repeat;
+        background-size: 100%;
+        padding-top: 20px;
+        &__logo {
+            width: 180px;
+            color: black;
+            line-height: 30px;
+            font-size: 30px;
+            font-style: italic;
+        }
+        &__text {
+            width: 52%;
+            font-size: 36px;
+            line-height: 48px;
+            margin-bottom: ;
+        }
     }
 }

@@ -1,9 +1,31 @@
 .person {
     margin: 0 auto;
-    width: 25%;
     text-align: left;
     color: white;
+    font-size: 18px;
+    width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     &__text {
         font-style: italic;
+    }
+    &__profession {
+        font-size: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    &__name {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 14px;
+    }
+}
+@media(min-width: 800px) {
+    .person {
+        width: 25%;
+        &__name {
+            font-size: 18px;;
+        }
     }
 }
