@@ -45,7 +45,7 @@ body {
 }
 .main-header {
   background-color: white;
-  min-height: 685px;
+  min-height: 485px;
   background: url("../img/header-bg.jpg") no-repeat;
   background-size: 100%;
 }
@@ -83,14 +83,16 @@ body {
   font-size: 15px;
   line-height: 20px;
   font-weight: normal;
+  text-align: center;
 }
-.feature__items {
+.feature--items {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 120px;
   font-size: 24px;
   line-height: 24px;
+}
+.feature--mail {
+  text-align: center;
 }
 .person {
   margin: 0 auto;
@@ -116,4 +118,16 @@ body {
   font-size: 20px;
   line-height: 30px;
   font-style: italic;
+}
+.mail {
+  width: 30%;
+  display: inline-block;
+}
+.mail__field {
+  border: none;
+  margin-right: none;
+}
+.mail__send {
+  border: none;
+  background-color: lawngreen;
 }
