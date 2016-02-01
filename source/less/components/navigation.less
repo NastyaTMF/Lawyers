@@ -1,25 +1,28 @@
 .navigation {
     display: flex;
-    justify-content: space-between;
-    padding-top: 43px;
+    justify-content: flex-start;
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+    width: 675px;
     &__list {
         display: block;
         list-style-type: none;
-        margin: 0 auto;
-        padding: 0;
-        width: 675px;
         text-align: right;
-        background-color: white;
-        color: black;
     }
     &__link {
         display: inline-block;
         text-decoration: none;
-        color: white;
         font-weight: bold;
         line-height: 30px;
         font-size: 20px;
-        padding-right: 20px;
+        padding-right: 10px;
+        color: black;
+        &--logo {
+            text-transform: uppercase;
+            padding-right: 40px;
+            font-style: italic;
+        }
     }
     &__item {
         display: inline-block;
